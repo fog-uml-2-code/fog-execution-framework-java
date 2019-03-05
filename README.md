@@ -3,7 +3,7 @@
 *fog-execution-framework-java* is a Java framework for Fog/IoT applications, used by the [FogUML2Code](https://github.com/fog-uml-2-code/fog-uml-2-code) code generation project.
 
 This framework provides:
-* Automatic constraint validation using `[@PreCondition](./activity-realization/src/main/java/pusztai/thomas/architecture/fog/validation/PreCondition.java)` and `[@Invariant](activity-realization/src/main/java/pusztai/thomas/architecture/fog/validation/Invariant.java)`.
+* Automatic constraint validation using [@PreCondition](./activity-realization/src/main/java/pusztai/thomas/architecture/fog/validation/PreCondition.java) and [@Invariant](activity-realization/src/main/java/pusztai/thomas/architecture/fog/validation/Invariant.java).
 * Execution of business processes defined as UML activities and serialized using FogUML2Code.
 
 
