@@ -13,6 +13,7 @@ import java.lang.annotation.*;
  * that does not start with get*.
  */
 @Documented
+@Repeatable(Invariants.class)
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.TYPE })
 @Around
