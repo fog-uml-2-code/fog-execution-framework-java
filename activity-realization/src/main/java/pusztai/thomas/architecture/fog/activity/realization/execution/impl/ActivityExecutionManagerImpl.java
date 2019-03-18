@@ -92,6 +92,7 @@ public class ActivityExecutionManagerImpl implements ActivityExecutionManager {
 		do {
 			try {
 				node.execute(prevNode, param);
+				return;
 			} catch (ActivityExecutionException ex) {
 				LOG.info("Exception while executing node {}. Details: {}", node, ex);
 				++retries;
