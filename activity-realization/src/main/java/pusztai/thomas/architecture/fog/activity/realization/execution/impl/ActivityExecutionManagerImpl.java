@@ -79,6 +79,7 @@ public class ActivityExecutionManagerImpl implements ActivityExecutionManager {
 		if (nextNode == null) {
 			throw new RuntimeException("Invalid nextNodeId: ".concat(nextNodeId));
 		}
+		LOG.info("Executing node {}.", nextNode.getName());
 		taskScheduler.schedule(Duration.ZERO, () -> executeNodeInternal(nextNode, currNode, param));
 	}
 
