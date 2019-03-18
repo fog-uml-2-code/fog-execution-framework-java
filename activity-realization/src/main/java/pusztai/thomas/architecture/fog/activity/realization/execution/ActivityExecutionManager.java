@@ -12,7 +12,7 @@ public interface ActivityExecutionManager {
 	 * Defines how many times an ActivityNode can be retried after an error,
 	 * before going back to the initial node.
 	 */
-	static int MAX_NODE_RETRIES = 2;
+	static final int MAX_NODE_RETRIES = 2;
 
 	BeanContext getBeanContext();
 

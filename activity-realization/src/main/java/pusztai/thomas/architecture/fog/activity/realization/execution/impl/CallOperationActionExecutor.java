@@ -10,7 +10,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class CallOperationActionExecutor extends SingleNextNodeExecutorBase {
 
-	public static int MAX_RETRY_COUNT = 2;
+	public static final int MAX_RETRY_COUNT = 2;
 
 	public static class Factory implements ActivityNodeExecutorFactory {
 		@Override
